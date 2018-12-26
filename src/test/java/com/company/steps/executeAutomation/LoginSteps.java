@@ -1,4 +1,4 @@
-package com.company.stepDefs.executeAutomation;
+package com.company.steps.executeAutomation;
 
 import static org.testng.Assert.assertTrue;
 

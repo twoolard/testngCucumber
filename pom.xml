@@ -49,7 +49,7 @@
                     <configuration>
                         <outputDirectory>runner</outputDirectory>
                         <glue>
-                            <package>com.company.stepdefs</package>
+                            <package>com.company.steps</package>
                         </glue>
                         <featuresDirectory>src/test/resources/features</featuresDirectory>
                         <cucumberOutputDir>${project.build.directory}/cucumber.json</cucumberOutputDir>

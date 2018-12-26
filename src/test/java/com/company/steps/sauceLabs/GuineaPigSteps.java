@@ -1,4 +1,4 @@
-package com.company.stepDefs.sauceLabs;
+package com.company.steps.sauceLabs;
 
 import java.util.UUID;
 

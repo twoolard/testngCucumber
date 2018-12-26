@@ -1,4 +1,4 @@
-package com.company.stepDefs;
+package com.company.steps;
 
 import static utils.LogUtil.info;
 
@@ -24,7 +24,7 @@ import utils.WebDriverFactory;
 import utils.listener.CustomWebDriverLogger;
 import utils.properties.FrameworkProperties;
 
-@CucumberOptions(features="src/test/resources/features", glue={"stepDefs"}, plugin= {"pretty", "html:target/cucumber-reports", "json:target/Cucumber.json", "rerun:target/re-run.txt"}, monochrome = true)
+@CucumberOptions(features="src/test/resources/features", glue={"steps"}, plugin= {"pretty", "html:target/cucumber-reports", "json:target/Cucumber.json", "rerun:target/re-run.txt"}, monochrome = true)
 public class BaseSteps extends BaseUtil {
     protected static String browser;
     private String jobName;
