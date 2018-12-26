@@ -25,101 +25,106 @@
         <testng.suite>../../../src/test/resources/testng/testng.xml</testng.suite>
     </properties>
     <build>
-    <plugins>
-        <plugin>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.6.1</version>
-            <configuration>
-                <executable>C:\Program Files\Java\jdk1.8.0_65\bin\javac.exe</executable>
-                <source>8</source>
-                <target>8</target>
-            </configuration>
-        </plugin>
-        <plugin>
-            <groupId>com.github.temyers</groupId>
-            <artifactId>cucumber-jvm-parallel-plugin</artifactId>
-            <version>5.0.0</version>
-            <executions>
-                <execution>
-                    <id>generateRunners</id>
-                    <phase>generate-test-sources</phase>
-                    <goals>
-                        <goal>generateRunners</goal>
-                    </goals>
-                    <configuration>
-                        <outputDirectory>runner</outputDirectory>
-                        <glue>
-                            <package>com.company.steps</package>
-                        </glue>
-                        <featuresDirectory>src/test/resources/features</featuresDirectory>
-                        <cucumberOutputDir>${project.build.directory}/cucumber.json</cucumberOutputDir>
-                        <format>json</format>
-                        <plugins>
-                            <plugin>
-                                <name>json</name>
-                            </plugin>
-                        </plugins>
-                        <useTestNG>true</useTestNG>
-                        <parallelScheme>FEATURE</parallelScheme>
-                    </configuration>
-                </execution>
-            </executions>
-        </plugin>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-resources-plugin</artifactId>
-            <version>3.1.0</version>
-            <executions>
-                <execution>
-                    <id>copy-resources</id>
-                    <!-- here the phase you need -->
-                    <phase>validate</phase>
-                    <goals>
-                        <goal>copy-resources</goal>
-                    </goals>
-                    <configuration>
-                        <outputDirectory>target/test-classes/cucumberSeleniumjvm</outputDirectory>
-                        <resources>
-                            <resource>
-                                <directory>src/test/resources</directory>
-                                <filtering>true</filtering>
-                            </resource>
-                        </resources>
-                    </configuration>
-                </execution>
-            </executions>
-        </plugin>
-        <plugin>
-            <groupId>net.masterthought</groupId>
-            <artifactId>maven-cucumber-reporting</artifactId>
-            <version>3.10.0</version>
-            <executions>
-                <execution>
-                    <id>execution</id>
-                    <phase>test</phase>
-                    <goals>
-                        <goal>generate</goal>
-                    </goals>
-                    <configuration>
-                        <projectName>Terry's FrameWork</projectName>
-                        <outputDirectory>${project.build.directory}/cucumber-report-html</outputDirectory>
-                        <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
-                        <!--<skippedFails>true</skippedFails>-->
-                        <!--<buildNumber>42</buildNumber>-->
-                    </configuration>
-                </execution>
-            </executions>
-        </plugin>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>3.0.0-M3</version>
-            <configuration>
-                <parallel>methods</parallel>
-                <threadCount>2</threadCount>
-            </configuration>
-        </plugin>
-    </plugins>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+                <!--<configuration>-->
+                    <!--<executable>C:\Program Files\Java\jdk1.8.0_65\bin\javac.exe</executable>-->
+                    <!--<source>8</source>-->
+                    <!--<target>8</target>-->
+                <!--</configuration>-->
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M3</version>
+                <configuration>
+                    <parallel>methods</parallel>
+                    <threadCount>2</threadCount>
+                </configuration>
+            </plugin>
+        <!--<plugin>-->
+            <!--<groupId>com.github.temyers</groupId>-->
+            <!--<artifactId>cucumber-jvm-parallel-plugin</artifactId>-->
+            <!--<version>5.0.0</version>-->
+            <!--<executions>-->
+                <!--<execution>-->
+                    <!--<id>generateRunners</id>-->
+                    <!--<phase>generate-test-sources</phase>-->
+                    <!--<goals>-->
+                        <!--<goal>generateRunners</goal>-->
+                    <!--</goals>-->
+                    <!--<configuration>-->
+                        <!--<outputDirectory>runner</outputDirectory>-->
+                        <!--<glue>-->
+                            <!--<package>com.company.steps</package>-->
+                        <!--</glue>-->
+                        <!--<featuresDirectory>src/test/resources/features</featuresDirectory>-->
+                        <!--<cucumberOutputDir>${project.build.directory}/cucumber.json</cucumberOutputDir>-->
+                        <!--<format>json</format>-->
+                        <!--<plugins>-->
+                            <!--<plugin>-->
+                                <!--<name>json</name>-->
+                            <!--</plugin>-->
+                        <!--</plugins>-->
+                        <!--<useTestNG>true</useTestNG>-->
+                        <!--<parallelScheme>FEATURE</parallelScheme>-->
+                    <!--</configuration>-->
+                <!--</execution>-->
+            <!--</executions>-->
+        <!--</plugin>-->
+        <!--<plugin>-->
+            <!--<groupId>org.apache.maven.plugins</groupId>-->
+            <!--<artifactId>maven-resources-plugin</artifactId>-->
+            <!--<version>3.1.0</version>-->
+            <!--<executions>-->
+                <!--<execution>-->
+                    <!--<id>copy-resources</id>-->
+                    <!--&lt;!&ndash; here the phase you need &ndash;&gt;-->
+                    <!--<phase>validate</phase>-->
+                    <!--<goals>-->
+                        <!--<goal>copy-resources</goal>-->
+                    <!--</goals>-->
+                    <!--<configuration>-->
+                        <!--<outputDirectory>target/test-classes/cucumberSeleniumjvm</outputDirectory>-->
+                        <!--<resources>-->
+                            <!--<resource>-->
+                                <!--<directory>src/test/resources</directory>-->
+                                <!--<filtering>true</filtering>-->
+                            <!--</resource>-->
+                        <!--</resources>-->
+                    <!--</configuration>-->
+                <!--</execution>-->
+            <!--</executions>-->
+        <!--</plugin>-->
+        <!--<plugin>-->
+            <!--<groupId>net.masterthought</groupId>-->
+            <!--<artifactId>maven-cucumber-reporting</artifactId>-->
+            <!--<version>3.10.0</version>-->
+            <!--<executions>-->
+                <!--<execution>-->
+                    <!--<id>execution</id>-->
+                    <!--<phase>test</phase>-->
+                    <!--<goals>-->
+                        <!--<goal>generate</goal>-->
+                    <!--</goals>-->
+                    <!--<configuration>-->
+                        <!--<projectName>Terry's FrameWork</projectName>-->
+                        <!--<outputDirectory>${project.build.directory}/cucumber-report-html</outputDirectory>-->
+                        <!--<cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>-->
+                        <!--&lt;!&ndash;<skippedFails>true</skippedFails>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<buildNumber>42</buildNumber>&ndash;&gt;-->
+                    <!--</configuration>-->
+                <!--</execution>-->
+            <!--</executions>-->
+        <!--</plugin>-->
+        </plugins>
     </build>
     <dependencies>
         <dependency>
@@ -142,11 +147,6 @@
         <artifactId>selenium-firefox-driver</artifactId>
         <version>${selenium.version}</version>
     </dependency>
-        <dependency>
-            <groupId>net.masterthought</groupId>
-            <artifactId>maven-cucumber-reporting</artifactId>
-            <version>4.3.0</version>
-        </dependency>
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
@@ -184,22 +184,22 @@
             <artifactId>phantomjsdriver</artifactId>
             <version>1.2.0</version>
         </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.7.25</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.slf4j</groupId>-->
+            <!--<artifactId>slf4j-api</artifactId>-->
+            <!--<version>1.7.25</version>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
             <version>1.7.25</version>
         </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
-            <version>1.7.25</version>
-            <scope>test</scope>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.slf4j</groupId>-->
+            <!--<artifactId>slf4j-simple</artifactId>-->
+            <!--<version>1.7.25</version>-->
+            <!--<scope>test</scope>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-testng</artifactId>

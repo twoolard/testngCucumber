@@ -4,6 +4,7 @@ import java.util.UUID;
 
 import com.company.pages.sauceLabs.CommentTextPage;
 
+import cucumber.api.java.After;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -14,9 +15,8 @@ import utils.properties.TestProperties;
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.junit.Assert.assertThat;
 
-import org.testng.annotations.Test;
+import org.testng.annotations.AfterClass;
 
-@Test(groups = {"Test"})
 public class GuineaPigSteps extends BaseUtil {
     private BaseUtil base;
     public String commentInputText;
@@ -41,5 +41,11 @@ public class GuineaPigSteps extends BaseUtil {
     @Then("^I should see that comment displayed$")
     public void iShouldSeeThatCommentDisplayed() throws Throwable {
         assertThat(page.getSubmittedCommentText(), containsString(commentInputText));
+    }
+
+
+    @AfterClass(alwaysRun = true)
+    public void doCleanup(){
+        System.out.println("This is where the clean up method would go");
     }
 }

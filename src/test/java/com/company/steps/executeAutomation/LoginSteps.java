@@ -2,7 +2,6 @@ package com.company.steps.executeAutomation;
 
 import static org.testng.Assert.assertTrue;
 
-import org.testng.annotations.Test;
 
 import com.company.pages.executeAutomation.HomePage;
 import com.company.pages.executeAutomation.LoginPage;
@@ -14,7 +13,6 @@ import utils.BaseUtil;
 import utils.properties.TestConstant;
 import utils.properties.TestProperties;
 
-@Test(groups = {"Test"})
 public class LoginSteps extends BaseUtil {
 
     private BaseUtil base;

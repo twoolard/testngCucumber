@@ -7,6 +7,6 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
         plugin = {"json:/Users/twoolard/IdeaProjects/testngCucumber/target/cucumber.json/2.json"},
         monochrome = false,
         tags = {},
-        glue = {"com.company.stepdefs"})
+        glue = {"com.company.steps"})
 public class Parallel02IT extends AbstractTestNGCucumberTests {
 }
