@@ -8,8 +8,8 @@
             </run>
         </groups>
         <packages>
-            <package name="com.company.stepDefs.sauceLabs"/>
-            <package name="com.company.stepDefs.executeAutomation"/>
+            <package name="com.company.steps.sauceLabs"/>
+            <package name="com.company.steps.executeAutomation"/>
         </packages>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
