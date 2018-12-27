@@ -47,6 +47,6 @@ public class GuineaPigSteps extends BaseUtil {
     // Will need to set up local database and populate some tables
     // Testing the clean up method
     public void doCleanup(){
-        System.out.println("This is where the clean up method would go");
+        System.out.println("This is where the clean up method might go");
     }
 }
