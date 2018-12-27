@@ -1,0 +1,11 @@
+# IDE working files
+*.iws
+*.ipr
+*.iml
+.idea/
+.settings
+.project
+.classpath
+# Build directories
+target/
+
