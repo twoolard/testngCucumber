@@ -1,17 +1,19 @@
 package utils.listeners;
 
+import static utils.LogUtil.info;
+
 import org.testng.IExecutionListener;
 
 public class TestNGExecutionListener implements IExecutionListener {
 
     @Override
     public void onExecutionStart() {
-        System.out.println("TestNG is staring the execution");
+        info("TestNG is staring the execution");
     }
 
     @Override
     public void onExecutionFinish() {
-        System.out.println("TestNG has finished, the execution");
+        info("TestNG has finished, the execution");
 
     }
 }
