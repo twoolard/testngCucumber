@@ -1,6 +1,7 @@
 Feature: LoginFeature
   This feature deals with the login functionality of the application
 
+  @smoke @regression
   Scenario Outline: Login with correct username and password using scenario outline
     Given I navigate to the login page
     And I login using <Username> and <Password>

@@ -1,4 +1,4 @@
-package com.company.steps.sauceLabs;
+package com.company.steps.sauce;
 
 import java.util.UUID;
 
@@ -14,8 +14,6 @@ import utils.properties.TestProperties;
 
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.junit.Assert.assertThat;
-
-import org.testng.annotations.AfterClass;
 
 public class GuineaPigSteps extends BaseUtil {
     private BaseUtil base;
@@ -45,6 +43,7 @@ public class GuineaPigSteps extends BaseUtil {
 
 
     @After
+    //Clean up method can be here or in the test execution listeners
     // Will need to set up local database and populate some tables
     // Testing the clean up method
     public void doCleanup(){

@@ -22,7 +22,7 @@
         <webdriver.gecko.driver>../../../src/test/resources/drivers/firefox/geckodriver</webdriver.gecko.driver>
         <webdriver.ie.driver>../../../src/test/resources/drivers/iexplorer/IEDriverServer.exe</webdriver.ie.driver>
         <phantomjs.binary.path>../../../src/test/resources/drivers/phantomjs/phantomjs.exe</phantomjs.binary.path>
-        <testng.suite>../../../src/test/resources/testng/testng.xml</testng.suite>
+        <!--<testng.suite>../../../src/test/resources/testng/testng.xml</testng.suite>-->
     </properties>
     <build>
         <plugins>
@@ -34,19 +34,17 @@
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
-                <!--<configuration>-->
-                    <!--<executable>C:\Program Files\Java\jdk1.8.0_65\bin\javac.exe</executable>-->
-                    <!--<source>8</source>-->
-                    <!--<target>8</target>-->
-                <!--</configuration>-->
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M3</version>
                 <configuration>
-                    <parallel>methods</parallel>
+                    <parallel>tests</parallel>
                     <threadCount>2</threadCount>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>src/test/resources/tesNG/testng-smoke.xml</suiteXmlFile>
+                    </suiteXmlFiles>
                 </configuration>
             </plugin>
         <!--<plugin>-->
@@ -152,7 +150,6 @@
             <artifactId>testng</artifactId>
             <version>${testng.version}</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.saucelabs/saucerest -->
         <dependency>
             <groupId>com.saucelabs</groupId>
             <artifactId>saucerest</artifactId>
@@ -184,22 +181,11 @@
             <artifactId>phantomjsdriver</artifactId>
             <version>1.2.0</version>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>org.slf4j</groupId>-->
-            <!--<artifactId>slf4j-api</artifactId>-->
-            <!--<version>1.7.25</version>-->
-        <!--</dependency>-->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
             <version>1.7.25</version>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>org.slf4j</groupId>-->
-            <!--<artifactId>slf4j-simple</artifactId>-->
-            <!--<version>1.7.25</version>-->
-            <!--<scope>test</scope>-->
-        <!--</dependency>-->
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-testng</artifactId>
@@ -216,7 +202,6 @@
             <version>1.0.5</version>
             <scope>provided</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-picocontainer -->
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-picocontainer</artifactId>
@@ -239,7 +224,6 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-junit -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
