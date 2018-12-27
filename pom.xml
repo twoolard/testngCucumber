@@ -48,81 +48,30 @@
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
-        <!--<plugin>-->
-            <!--<groupId>com.github.temyers</groupId>-->
-            <!--<artifactId>cucumber-jvm-parallel-plugin</artifactId>-->
-            <!--<version>5.0.0</version>-->
-            <!--<executions>-->
-                <!--<execution>-->
-                    <!--<id>generateRunners</id>-->
-                    <!--<phase>generate-test-sources</phase>-->
-                    <!--<goals>-->
-                        <!--<goal>generateRunners</goal>-->
-                    <!--</goals>-->
-                    <!--<configuration>-->
-                        <!--<outputDirectory>runner</outputDirectory>-->
-                        <!--<glue>-->
-                            <!--<package>com.company.steps</package>-->
-                        <!--</glue>-->
-                        <!--<featuresDirectory>src/test/resources/features</featuresDirectory>-->
-                        <!--<cucumberOutputDir>${project.build.directory}/cucumber.json</cucumberOutputDir>-->
-                        <!--<format>json</format>-->
-                        <!--<plugins>-->
-                            <!--<plugin>-->
-                                <!--<name>json</name>-->
-                            <!--</plugin>-->
-                        <!--</plugins>-->
-                        <!--<useTestNG>true</useTestNG>-->
-                        <!--<parallelScheme>FEATURE</parallelScheme>-->
-                    <!--</configuration>-->
-                <!--</execution>-->
-            <!--</executions>-->
-        <!--</plugin>-->
-        <!--<plugin>-->
-            <!--<groupId>org.apache.maven.plugins</groupId>-->
-            <!--<artifactId>maven-resources-plugin</artifactId>-->
-            <!--<version>3.1.0</version>-->
-            <!--<executions>-->
-                <!--<execution>-->
-                    <!--<id>copy-resources</id>-->
-                    <!--&lt;!&ndash; here the phase you need &ndash;&gt;-->
-                    <!--<phase>validate</phase>-->
-                    <!--<goals>-->
-                        <!--<goal>copy-resources</goal>-->
-                    <!--</goals>-->
-                    <!--<configuration>-->
-                        <!--<outputDirectory>target/test-classes/cucumberSeleniumjvm</outputDirectory>-->
-                        <!--<resources>-->
-                            <!--<resource>-->
-                                <!--<directory>src/test/resources</directory>-->
-                                <!--<filtering>true</filtering>-->
-                            <!--</resource>-->
-                        <!--</resources>-->
-                    <!--</configuration>-->
-                <!--</execution>-->
-            <!--</executions>-->
-        <!--</plugin>-->
-        <!--<plugin>-->
-            <!--<groupId>net.masterthought</groupId>-->
-            <!--<artifactId>maven-cucumber-reporting</artifactId>-->
-            <!--<version>3.10.0</version>-->
-            <!--<executions>-->
-                <!--<execution>-->
-                    <!--<id>execution</id>-->
-                    <!--<phase>test</phase>-->
-                    <!--<goals>-->
-                        <!--<goal>generate</goal>-->
-                    <!--</goals>-->
-                    <!--<configuration>-->
-                        <!--<projectName>Terry's FrameWork</projectName>-->
-                        <!--<outputDirectory>${project.build.directory}/cucumber-report-html</outputDirectory>-->
-                        <!--<cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>-->
-                        <!--&lt;!&ndash;<skippedFails>true</skippedFails>&ndash;&gt;-->
-                        <!--&lt;!&ndash;<buildNumber>42</buildNumber>&ndash;&gt;-->
-                    <!--</configuration>-->
-                <!--</execution>-->
-            <!--</executions>-->
-        <!--</plugin>-->
+            <plugin>
+                <groupId>net.masterthought</groupId>
+                <artifactId>maven-cucumber-reporting</artifactId>
+                <version>4.3.0</version>
+                <executions>
+                    <execution>
+                        <id>execution</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <projectName>Terry's Framework 2</projectName>
+                            <skip>false</skip>
+                            <outputDirectory>${project.build.directory}/cucumber-reports</outputDirectory>
+                            <jsonFiles>
+                                <param>cucumber.json</param>
+                            </jsonFiles>
+                            <!-- optional, set true to fail build on test failures -->
+                            <checkBuildResult>false</checkBuildResult>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
     <profiles>

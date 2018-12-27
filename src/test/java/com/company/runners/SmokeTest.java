@@ -13,7 +13,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
         features="src/test/resources/features",
         glue="com.company.steps",
         tags = "@smoke",
-        plugin= {"pretty", "html:target/cucumber-reports", "json:target/SmokeCucumber.json", "rerun:target/re-run.txt"}, monochrome = true)
+        plugin = {"pretty", "html:target/cucumber-reports", "json:target/cucumber-reports/cucumber.json", "rerun:target/re-run.txt"}, monochrome = true)
 public class SmokeTest {
 
     private TestNGCucumberRunner testNGCucumberRunner;
