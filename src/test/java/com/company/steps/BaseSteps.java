@@ -18,7 +18,7 @@ import cucumber.api.java.Before;
 import utils.BaseUtil;
 import utils.SauceUtils;
 import utils.WebDriverFactory;
-import utils.listener.CustomWebDriverLogger;
+import utils.listeners.CustomWebDriverLogger;
 import utils.properties.FrameworkProperties;
 
 public class BaseSteps extends BaseUtil {
@@ -47,8 +47,6 @@ public class BaseSteps extends BaseUtil {
 
     @After
     public void tearDown(Scenario scenario) throws IOException, JSONException {
-        base.driver.quit();
-
         String duration = "";
         if (stopWatch != null) {
             stopWatch.stop();
@@ -58,7 +56,7 @@ public class BaseSteps extends BaseUtil {
         if (browser.equals("sauce_labs")) {
             String sessionId = scenario.getId();
             SauceUtils.UpdateResults(System.getProperty("sauce_username"), System.getProperty("access_key"), !scenario.isFailed(), sessionId);
-            System.out.println("SessionID:" + sessionId + " " + "job-name:" + jobName + " " + "Tested on:" + browser);
+            info("SessionID:" + sessionId + " " + "job-name:" + jobName + " " + "Tested on:" + browser);
 
         }
 
@@ -66,6 +64,8 @@ public class BaseSteps extends BaseUtil {
             byte[] screenshot = getScreenshot(base.driver);
             scenario.embed(screenshot, "image/png");
         }
+
+        base.driver.quit();
 
         info("Test Case Duration [" + duration + "]");
         info("Test-Case:" + jobName);

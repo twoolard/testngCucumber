@@ -1,7 +1,6 @@
 package com.company.steps.executeAutomation;
 
-import static org.testng.Assert.assertTrue;
-
+import static junit.framework.TestCase.assertTrue;
 
 import com.company.pages.executeAutomation.HomePage;
 import com.company.pages.executeAutomation.LoginPage;

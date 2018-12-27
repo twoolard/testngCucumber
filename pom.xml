@@ -46,6 +46,7 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>${testng.suite}</suiteXmlFile>
                     </suiteXmlFiles>
+                    <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin>
             <plugin>

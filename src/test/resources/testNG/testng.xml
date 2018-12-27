@@ -2,9 +2,9 @@
         <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Cucumber Test" verbose="1" thread-count="2" parallel="tests" configfailurepolicy="continue">
 <listeners>
-    <listener class-name="utils.listener.AnotherExecutionListenerTest">
+    <listener class-name="utils.listeners.AnotherExecutionListenerTest">
     </listener>
-    <listener class-name="utils.listener.TestNGExecutionListener">
+    <listener class-name="utils.listeners.TestNGExecutionListener">
     </listener>
 </listeners>
 <test name="Run All Test" annotations="JDK" preserve-order="true">
