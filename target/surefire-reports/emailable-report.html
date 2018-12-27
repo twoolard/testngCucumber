@@ -8,65 +8,12 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">399</td><td></td><td></td></tr>
+<tr><th colspan="7">Cucumber Smoke Test</th></tr>
+<tr><td><a href="#t0">Run Smoke Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">16,544</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.company.testRunners.TestRunner</td><td><a href="#m0">feature</a></td><td rowspan="2">1545856022293</td><td rowspan="2">21</td></tr><tr class="failedeven"><td><a href="#m1">feature</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Cucumber Smoke Test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Run Smoke Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.company.runners.SmokeTest</td><td><a href="#m0">feature</a></td><td rowspan="2">1545876169710</td><td rowspan="2">2880</td></tr><tr class="passedeven"><td><a href="#m1">feature</a></td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">com.company.testRunners.TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>LoginFeature</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: com.typesafe.config.ConfigException$Missing: No configuration setting found for key &apos;selenium&apos;
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: com.typesafe.config.ConfigException$Missing: No configuration setting found for key &apos;selenium&apos;
-	at com.typesafe.config.impl.SimpleConfig.findKey(SimpleConfig.java:115)
-	at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:138)
-	at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:150)
-	at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:155)
-	at com.typesafe.config.impl.SimpleConfig.getString(SimpleConfig.java:197)
-	at utils.properties.FrameworkProperties.getProperty(FrameworkProperties.java:40)
-	at utils.properties.FrameworkProperties.getBrowser(FrameworkProperties.java:31)
-	at com.company.steps.BaseSteps.setUP(BaseSteps.java:40)
-	at cucumber.runtime.Utils$1.call(Utils.java:40)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-	at cucumber.runtime.Utils.invoke(Utils.java:34)
-	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
-	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
-	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
-	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
-	at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)
-	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
-	... 14 more
-... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.company.testRunners.TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Guinea Pig comment</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: com.typesafe.config.ConfigException$Missing: No configuration setting found for key &apos;selenium&apos;
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: com.typesafe.config.ConfigException$Missing: No configuration setting found for key &apos;selenium&apos;
-	at com.typesafe.config.impl.SimpleConfig.findKey(SimpleConfig.java:115)
-	at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:138)
-	at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:150)
-	at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:155)
-	at com.typesafe.config.impl.SimpleConfig.getString(SimpleConfig.java:197)
-	at utils.properties.FrameworkProperties.getProperty(FrameworkProperties.java:40)
-	at utils.properties.FrameworkProperties.getBrowser(FrameworkProperties.java:31)
-	at com.company.steps.BaseSteps.setUP(BaseSteps.java:40)
-	at cucumber.runtime.Utils$1.call(Utils.java:40)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-	at cucumber.runtime.Utils.invoke(Utils.java:34)
-	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
-	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
-	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
-	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
-	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
-	... 14 more
-... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Run Smoke Test</h2><h3 id="m0">com.company.runners.SmokeTest#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Guinea Pig comment</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">&nbsp;&nbsp;&nbsp;&nbsp;Retrieved Property: key [sauce.url], value [https://saucelabs-sample-test-frameworks.github.io/training-test-page]<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;Test Case Duration [00:00:01.994]<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;Test-Case:Can Submit Comment<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;Browser:chrome<br/></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.company.runners.SmokeTest#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>LoginFeature</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">&nbsp;&nbsp;&nbsp;&nbsp;Retrieved Property: key [driver.timeout.default], value [45]<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;Retrieved Property: key [ex.url], value [http://executeautomation.com/demosite/Login.html]<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;User [execute], Password [automation]<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;Test Case Duration [00:00:05.506]<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;Test-Case:Login with correct username and password using scenario outline<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;Browser:chrome<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;Retrieved Property: key [ex.url], value [http://executeautomation.com/demosite/Login.html]<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;User [testing], Password [QA]<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;Test Case Duration [00:00:05.594]<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;Test-Case:Login with correct username and password using scenario outline<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;Browser:chrome<br/></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

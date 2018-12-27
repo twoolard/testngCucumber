@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
-              <span class="suite-name border-failed">Surefire suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-Cucumber_Smoke_Test">
+              <span class="suite-name border-passed">Cucumber Smoke Test</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
-                    <span>[unset file name]</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Cucumber_Smoke_Test">
+                    <span>testng-smoke.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                  <a href="#" class="navigator-link " panel-name="testlist-Cucumber_Smoke_Test">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                  <a href="#" class="navigator-link " panel-name="group-Cucumber_Smoke_Test">
                     <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                  <a href="#" class="navigator-link " panel-name="times-Cucumber_Smoke_Test">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                  <a href="#" class="navigator-link " panel-name="reporter-Cucumber_Smoke_Test">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Cucumber_Smoke_Test">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                  <a href="#" class="navigator-link " panel-name="chronological-Cucumber_Smoke_Test">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,26 +91,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 2 failed,   </span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
-                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Cucumber_Smoke_Test" class="hide-methods passed suite-Cucumber_Smoke_Test"> (hide)</a> <!-- hide-methods passed suite-Cucumber_Smoke_Test -->
+                      <a href="#" panel-name="suite-Cucumber_Smoke_Test" class="show-methods passed suite-Cucumber_Smoke_Test"> (show)</a> <!-- show-methods passed suite-Cucumber_Smoke_Test -->
                     </span>
-                    <div class="method-list-content failed suite-Surefire_suite">
+                    <div class="method-list-content passed suite-Cucumber_Smoke_Test">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.company.testRunners.TestRunner" hash-for-method="feature(LoginFeature)">feature(LoginFeature)</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Cucumber_Smoke_Test" title="com.company.runners.SmokeTest" hash-for-method="feature(Guinea Pig comment)">feature(Guinea Pig comment)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.company.testRunners.TestRunner" hash-for-method="feature(Guinea Pig comment)">feature(Guinea Pig comment)</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Cucumber_Smoke_Test" title="com.company.runners.SmokeTest" hash-for-method="feature(LoginFeature)">feature(LoginFeature)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                    </div> <!-- method-list-content passed suite-Cucumber_Smoke_Test -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -121,127 +121,72 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
-          <div class="suite-Surefire_suite-class-failed">
+        <div panel-name="suite-Cucumber_Smoke_Test" class="panel Cucumber_Smoke_Test">
+          <div class="suite-Cucumber_Smoke_Test-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.company.testRunners.TestRunner</span>
+              <img src="passed.png"/>
+              <span class="class-name">com.company.runners.SmokeTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="feature(LoginFeature)">
-                  </a> <!-- feature(LoginFeature) -->
-                  <span class="method-name">feature</span>
-                  <span class="parameters">(LoginFeature)</span>
-                  <div class="stack-trace">cucumber.runtime.CucumberException: com.typesafe.config.ConfigException$Missing: No configuration setting found for key &apos;selenium&apos;
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: com.typesafe.config.ConfigException$Missing: No configuration setting found for key &apos;selenium&apos;
-	at com.typesafe.config.impl.SimpleConfig.findKey(SimpleConfig.java:115)
-	at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:138)
-	at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:150)
-	at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:155)
-	at com.typesafe.config.impl.SimpleConfig.getString(SimpleConfig.java:197)
-	at utils.properties.FrameworkProperties.getProperty(FrameworkProperties.java:40)
-	at utils.properties.FrameworkProperties.getBrowser(FrameworkProperties.java:31)
-	at com.company.steps.BaseSteps.setUP(BaseSteps.java:40)
-	at cucumber.runtime.Utils$1.call(Utils.java:40)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-	at cucumber.runtime.Utils.invoke(Utils.java:34)
-	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
-	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
-	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
-	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
-	at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)
-	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
-	... 14 more
-... Removed 14 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Feature)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="feature(Guinea Pig comment)">
                   </a> <!-- feature(Guinea Pig comment) -->
                   <span class="method-name">feature</span>
                   <span class="parameters">(Guinea Pig comment)</span>
-                  <div class="stack-trace">cucumber.runtime.CucumberException: com.typesafe.config.ConfigException$Missing: No configuration setting found for key &apos;selenium&apos;
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: com.typesafe.config.ConfigException$Missing: No configuration setting found for key &apos;selenium&apos;
-	at com.typesafe.config.impl.SimpleConfig.findKey(SimpleConfig.java:115)
-	at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:138)
-	at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:150)
-	at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:155)
-	at com.typesafe.config.impl.SimpleConfig.getString(SimpleConfig.java:197)
-	at utils.properties.FrameworkProperties.getProperty(FrameworkProperties.java:40)
-	at utils.properties.FrameworkProperties.getBrowser(FrameworkProperties.java:31)
-	at com.company.steps.BaseSteps.setUP(BaseSteps.java:40)
-	at cucumber.runtime.Utils$1.call(Utils.java:40)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-	at cucumber.runtime.Utils.invoke(Utils.java:34)
-	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
-	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
-	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
-	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
-	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
-	... 14 more
-... Removed 14 stack frames
-</div> <!-- stack-trace -->
                   <em>
-(Runs Cucumber Feature)                  </em>
+(Runs Cucumber Smoke test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="feature(LoginFeature)">
+                  </a> <!-- feature(LoginFeature) -->
+                  <span class="method-name">feature</span>
+                  <span class="parameters">(LoginFeature)</span>
+                  <em>
+(Runs Cucumber Smoke test)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-failed -->
-        </div> <!-- panel Surefire_suite -->
-        <div panel-name="test-xml-Surefire_suite" class="panel">
+          </div> <!-- suite-Cucumber_Smoke_Test-class-passed -->
+        </div> <!-- panel Cucumber_Smoke_Test -->
+        <div panel-name="test-xml-Cucumber_Smoke_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/twoolard/IdeaProjects/testngCucumber/src/test/resources/tesNG/testng-smoke.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot; parallel=&quot;methods&quot;&gt;
-  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;Surefire test&quot; parallel=&quot;methods&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; configfailurepolicy=&quot;continue&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Cucumber Smoke Test&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.listener.TestNGExecutionListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;Run Smoke Test&quot; parallel=&quot;tests&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;utils.properties.TestProperties&quot;/&gt;
-      &lt;class name=&quot;utils.properties.TestConstant&quot;/&gt;
-      &lt;class name=&quot;com.company.testRunners.TestRunner&quot;/&gt;
+      &lt;class name=&quot;com.company.runners.SmokeTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Surefire test --&gt;
-&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+  &lt;/test&gt; &lt;!-- Run Smoke Test --&gt;
+&lt;/suite&gt; &lt;!-- Cucumber Smoke Test --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Surefire_suite" class="panel">
+        <div panel-name="testlist-Cucumber_Smoke_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Surefire suite</span>
+            <span class="header-content">Tests for Cucumber Smoke Test</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (3 classes)</span>
+                <span class="test-name">Run Smoke Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Surefire_suite" class="panel">
+        <div panel-name="group-Cucumber_Smoke_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Surefire suite</span>
+            <span class="header-content">Groups for Cucumber Smoke Test</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
@@ -254,15 +199,15 @@ Caused by: com.typesafe.config.ConfigException$Missing: No configuration setting
             </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Surefire_suite" class="panel">
+        <div panel-name="times-Cucumber_Smoke_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Surefire suite</span>
+            <span class="header-content">Times for Cucumber Smoke Test</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Surefire_suite');
-function tableData_Surefire_suite() {
+suiteTableInitFunctions.push('tableData_Cucumber_Smoke_Test');
+function tableData_Cucumber_Smoke_Test() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
@@ -271,62 +216,83 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'feature')
-data.setCell(0, 2, 'com.company.testRunners.TestRunner')
-data.setCell(0, 3, 120);
+data.setCell(0, 2, 'com.company.runners.SmokeTest')
+data.setCell(0, 3, 13434);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'feature')
-data.setCell(1, 2, 'com.company.testRunners.TestRunner')
-data.setCell(1, 3, 21);
-window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+data.setCell(1, 2, 'com.company.runners.SmokeTest')
+data.setCell(1, 3, 2880);
+window.suiteTableData['Cucumber_Smoke_Test']= { tableData: data, tableDiv: 'times-div-Cucumber_Smoke_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 141 ms</span>
-              <div id="times-div-Surefire_suite">
-              </div> <!-- times-div-Surefire_suite -->
+              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <div id="times-div-Cucumber_Smoke_Test">
+              </div> <!-- times-div-Cucumber_Smoke_Test -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Surefire_suite" class="panel">
+        <div panel-name="reporter-Cucumber_Smoke_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Surefire suite</span>
+            <span class="header-content">Reporter output for Cucumber Smoke Test</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">feature(Guinea Pig comment)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;&nbsp;Retrieved Property: key [sauce.url], value [https://saucelabs-sample-test-frameworks.github.io/training-test-page]<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;&nbsp;Test Case Duration [00:00:01.994]<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;&nbsp;Test-Case:Can Submit Comment<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;&nbsp;Browser:chrome<br/></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">feature(LoginFeature)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;&nbsp;Retrieved Property: key [driver.timeout.default], value [45]<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;&nbsp;Retrieved Property: key [ex.url], value [http://executeautomation.com/demosite/Login.html]<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;&nbsp;User [execute], Password [automation]<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;&nbsp;Test Case Duration [00:00:05.506]<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;&nbsp;Test-Case:Login with correct username and password using scenario outline<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;&nbsp;Browser:chrome<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;&nbsp;Retrieved Property: key [ex.url], value [http://executeautomation.com/demosite/Login.html]<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;&nbsp;User [testing], Password [QA]<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;&nbsp;Test Case Duration [00:00:05.594]<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;&nbsp;Test-Case:Login with correct username and password using scenario outline<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;&nbsp;Browser:chrome<br/></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+        <div panel-name="ignored-methods-Cucumber_Smoke_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Surefire_suite" class="panel">
+        <div panel-name="chronological-Cucumber_Smoke_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.company.testRunners.TestRunner</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.company.runners.SmokeTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUpClass</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">feature(Guinea Pig comment)</span>
-                <span class="method-start">224 ms</span>
+                <span class="method-name">feature(LoginFeature)</span>
+                <span class="method-start">218 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">feature(LoginFeature)</span>
-                <span class="method-start">357 ms</span>
+                <span class="method-name">feature(Guinea Pig comment)</span>
+                <span class="method-start">13653 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">379 ms</span>
+                <span class="method-start">16533 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

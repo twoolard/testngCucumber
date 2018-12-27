@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.592 s <<< FAILURE! - in TestSuite
-feature(com.company.testRunners.TestRunner)  Time elapsed: 0.134 s  <<< FAILURE!
-cucumber.runtime.CucumberException: com.typesafe.config.ConfigException$Missing: No configuration setting found for key 'selenium'
-Caused by: com.typesafe.config.ConfigException$Missing: No configuration setting found for key 'selenium'
-
-feature(com.company.testRunners.TestRunner)  Time elapsed: 0.021 s  <<< FAILURE!
-cucumber.runtime.CucumberException: com.typesafe.config.ConfigException$Missing: No configuration setting found for key 'selenium'
-Caused by: com.typesafe.config.ConfigException$Missing: No configuration setting found for key 'selenium'
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.755 s - in TestSuite
