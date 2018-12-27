@@ -22,7 +22,7 @@
         <webdriver.gecko.driver>../../../src/test/resources/drivers/firefox/geckodriver</webdriver.gecko.driver>
         <webdriver.ie.driver>../../../src/test/resources/drivers/iexplorer/IEDriverServer.exe</webdriver.ie.driver>
         <phantomjs.binary.path>../../../src/test/resources/drivers/phantomjs/phantomjs.exe</phantomjs.binary.path>
-        <!--<testng.suite>../../../src/test/resources/testng/testng.xml</testng.suite>-->
+        <testng.suite>src/test/resources/testNG/${testng.suite}</testng.suite>
     </properties>
     <build>
         <plugins>
@@ -43,7 +43,7 @@
                     <parallel>tests</parallel>
                     <threadCount>2</threadCount>
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/test/resources/tesNG/testng-smoke.xml</suiteXmlFile>
+                        <suiteXmlFile>${testng.suite}</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
@@ -124,6 +124,26 @@
         <!--</plugin>-->
         </plugins>
     </build>
+    <profiles>
+        <profile>
+            <id>cukes</id>
+            <properties>
+                <testng.suite>src/test/resources/testNG/testng.xml</testng.suite>
+            </properties>
+        </profile>
+        <profile>
+            <id>smoke</id>
+            <properties>
+                <testng.suite>src/test/resources/testNG/testng-smoke.xml</testng.suite>
+            </properties>
+        </profile>
+        <profile>
+            <id>regression</id>
+            <properties>
+                <testng.suite>src/test/resources/testNG/testng-regression.xml</testng.suite>
+            </properties>
+        </profile>
+    </profiles>
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>

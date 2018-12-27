@@ -11,7 +11,7 @@
       <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;User [execute], Password [automation]<br/>]]>
     </line>
     <line>
-      <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;Test Case Duration [00:00:05.506]<br/>]]>
+      <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;Test Case Duration [00:00:01.795]<br/>]]>
     </line>
     <line>
       <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;Test-Case:Login with correct username and password using scenario outline<br/>]]>
@@ -26,7 +26,7 @@
       <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;User [testing], Password [QA]<br/>]]>
     </line>
     <line>
-      <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;Test Case Duration [00:00:05.594]<br/>]]>
+      <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;Test Case Duration [00:00:01.645]<br/>]]>
     </line>
     <line>
       <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;Test-Case:Login with correct username and password using scenario outline<br/>]]>
@@ -38,7 +38,7 @@
       <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;Retrieved Property: key [sauce.url], value [https://saucelabs-sample-test-frameworks.github.io/training-test-page]<br/>]]>
     </line>
     <line>
-      <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;Test Case Duration [00:00:01.994]<br/>]]>
+      <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;Test Case Duration [00:00:00.952]<br/>]]>
     </line>
     <line>
       <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;Test-Case:Can Submit Comment<br/>]]>
@@ -47,19 +47,19 @@
       <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;Browser:chrome<br/>]]>
     </line>
   </reporter-output>
-  <suite name="Cucumber Smoke Test" duration-ms="16544" started-at="2018-12-27T02:02:36Z" finished-at="2018-12-27T02:02:52Z">
+  <suite name="All Cucumber Test" duration-ms="7889" started-at="2018-12-27T02:50:11Z" finished-at="2018-12-27T02:50:19Z">
     <groups>
       <group name="cucumber">
-        <method signature="SmokeTest.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.company.runners.SmokeTest@58651fd0]" name="feature" class="com.company.runners.SmokeTest"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.company.runners.RunAllTest@d2cc05a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Run Smoke Test" duration-ms="16544" started-at="2018-12-27T02:02:36Z" finished-at="2018-12-27T02:02:52Z">
-      <class name="com.company.runners.SmokeTest">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.company.runners.SmokeTest@58651fd0]" name="setUpClass" is-config="true" duration-ms="155" started-at="2018-12-27T02:02:36Z" finished-at="2018-12-27T02:02:36Z">
+    <test name="Run All Test" duration-ms="7889" started-at="2018-12-27T02:50:11Z" finished-at="2018-12-27T02:50:19Z">
+      <class name="com.company.runners.RunAllTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.company.runners.RunAllTest@d2cc05a]" name="setUpClass" is-config="true" duration-ms="156" started-at="2018-12-27T02:50:11Z" finished-at="2018-12-27T02:50:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.company.runners.SmokeTest@58651fd0]" name="feature" duration-ms="13434" started-at="2018-12-27T02:02:36Z" description="Runs Cucumber Smoke test" data-provider="features" finished-at="2018-12-27T02:02:49Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.company.runners.RunAllTest@d2cc05a]" name="feature" duration-ms="5807" started-at="2018-12-27T02:50:11Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-12-27T02:50:17Z">
           <params>
             <param index="0">
               <value>
@@ -78,7 +78,7 @@
               <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;User [execute], Password [automation]<br/>]]>
             </line>
             <line>
-              <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;Test Case Duration [00:00:05.506]<br/>]]>
+              <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;Test Case Duration [00:00:01.795]<br/>]]>
             </line>
             <line>
               <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;Test-Case:Login with correct username and password using scenario outline<br/>]]>
@@ -93,7 +93,7 @@
               <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;User [testing], Password [QA]<br/>]]>
             </line>
             <line>
-              <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;Test Case Duration [00:00:05.594]<br/>]]>
+              <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;Test Case Duration [00:00:01.645]<br/>]]>
             </line>
             <line>
               <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;Test-Case:Login with correct username and password using scenario outline<br/>]]>
@@ -103,7 +103,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.company.runners.SmokeTest@58651fd0]" name="feature" duration-ms="2880" started-at="2018-12-27T02:02:49Z" description="Runs Cucumber Smoke test" data-provider="features" finished-at="2018-12-27T02:02:52Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.company.runners.RunAllTest@d2cc05a]" name="feature" duration-ms="1849" started-at="2018-12-27T02:50:17Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-12-27T02:50:19Z">
           <params>
             <param index="0">
               <value>
@@ -116,7 +116,7 @@
               <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;Retrieved Property: key [sauce.url], value [https://saucelabs-sample-test-frameworks.github.io/training-test-page]<br/>]]>
             </line>
             <line>
-              <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;Test Case Duration [00:00:01.994]<br/>]]>
+              <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;Test Case Duration [00:00:00.952]<br/>]]>
             </line>
             <line>
               <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;Test-Case:Can Submit Comment<br/>]]>
@@ -126,11 +126,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.company.runners.SmokeTest@58651fd0]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2018-12-27T02:02:52Z" finished-at="2018-12-27T02:02:52Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.company.runners.RunAllTest@d2cc05a]" name="tearDownClass" is-config="true" duration-ms="8" started-at="2018-12-27T02:50:19Z" finished-at="2018-12-27T02:50:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- com.company.runners.SmokeTest -->
-    </test> <!-- Run Smoke Test -->
-  </suite> <!-- Cucumber Smoke Test -->
+      </class> <!-- com.company.runners.RunAllTest -->
+    </test> <!-- Run All Test -->
+  </suite> <!-- All Cucumber Test -->
 </testng-results>

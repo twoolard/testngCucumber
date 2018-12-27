@@ -1,38 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3739e2d-5368-47d9-9b6c-996018d6e2f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/Surefire test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/chrome/chromedriver-osx.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/drivers/chrome/chromedriver-osx.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/firefox/geckodriver" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/drivers/firefox/geckodriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/CommentText.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/test.feature" beforeDir="false" />
+    <list default="true" id="f3739e2d-5368-47d9-9b6c-996018d6e2f3" name="Default Changelist" comment="new xml suites">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/tesNG/testng-regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testNG/testng-regression.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/tesNG/testng-smoke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testNG/testng-smoke.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/tesNG/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testNG/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/pages/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/pages/executeAutomation/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/pages/executeAutomation/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/pages/sauceLabs/CommentTextPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/chrome/chromedriver-osx.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/chrome/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/chrome/chromedriver_linux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/firefox/geckodriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/firefox/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/iexplorer/IEDriverServer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/iexplorer/IEDriverServer_x64_2.42.0.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/iexplorer/IEDriverServer_x64_2.44.0.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/phantomjs/phantomjs.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/phantomjs/phantomjs_1.9.7.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/phantomjs/phantomjs_1.9.8.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/framework.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/BaseUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/LogUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/PageUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/SauceUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/WebDriverFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/WebDriverUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/browser/BrowserDimension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/browser/BrowserType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/browser/BrowserUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/db/CleanUpUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/db/DbUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/db/queryManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/listener/CustomWebDriverLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/metrics/BrowserConsoleLogEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/properties/FrameworkConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/properties/FrameworkProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/properties/TestConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/properties/TestProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ui_automation_stats.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngCucumber.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/${project.build.directory}/classes/" />
+    <ignored path="$PROJECT_DIR$/${project.build.directory}/test-classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +104,8 @@
           <entry key="java" value="1386" />
           <entry key="md" value="20" />
           <entry key="properties" value="47" />
-          <entry key="txt" value="208" />
-          <entry key="xml" value="476" />
+          <entry key="txt" value="271" />
+          <entry key="xml" value="547" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -70,9 +113,9 @@
           <entry key="Cucumber" value="49" />
           <entry key="JAVA" value="1386" />
           <entry key="Markdown" value="20" />
-          <entry key="PLAIN_TEXT" value="256" />
+          <entry key="PLAIN_TEXT" value="319" />
           <entry key="Properties" value="47" />
-          <entry key="XML" value="476" />
+          <entry key="XML" value="547" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -128,7 +171,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/tesNG/testng.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/testNG/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="7" selection-end-line="12" selection-end-column="8" />
@@ -137,7 +180,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/tesNG/testng-smoke.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/testNG/testng-smoke.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
@@ -146,7 +189,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/tesNG/testng-regression.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/testNG/testng-regression.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
@@ -182,22 +225,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="45" column="75" selection-start-line="45" selection-start-column="75" selection-end-line="45" selection-end-column="75" />
+            <state relative-caret-position="-64">
+              <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/company/runners/RunAllTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+              <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -240,7 +287,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/utils/browser/BrowserType.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/LogUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/WebDriverUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/metrics/TestResult.java" />
@@ -291,6 +337,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/company/runners/RegressionTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/tesNG/testng-regression.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -320,14 +367,25 @@
           <item name="selenium-framework-with-cucumber" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="selenium-framework-with-cucumber" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="selenium-framework-with-cucumber" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1920" />
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1946" />
+    <option name="y" value="25" />
+    <option name="width" value="1825" />
+    <option name="height" value="828" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -347,79 +405,13 @@
             <path>
               <item name="testngCucumber" type="b2602c69:ProjectViewProjectNode" />
               <item name="testngCucumber" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testngCucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testngCucumber" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testngCucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testngCucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testngCucumber" type="b2602c69:ProjectViewProjectNode" />
               <item name="testngCucumber" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testngCucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testngCucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testngCucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testngCucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testngCucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testngCucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testngCucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testngCucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="runners" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testngCucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testngCucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testngCucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testngCucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
-              <item name="sauce" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testngCucumber" type="b2602c69:ProjectViewProjectNode" />
@@ -434,34 +426,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="drivers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testngCucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testngCucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testngCucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testngCucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="tesNG" type="462c0819:PsiDirectoryNode" />
+              <item name="testNG" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testngCucumber" type="b2602c69:ProjectViewProjectNode" />
               <item name="testngCucumber" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testngCucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testngCucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumber-reports" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -516,7 +486,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="Cucumber Template" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features" />
       <option name="GLUE" value="com.company.steps" />
@@ -531,7 +501,7 @@
     <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/testngCucumber/target/surefire-reports/index.html">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/testngCucumber/target/cucumber-reports/index.html">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/testngCucumber/target/cucumber-reports/index.html">
       <method v="2" />
     </configuration>
     <configuration name="RegressionTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
@@ -612,16 +582,16 @@
     <list>
       <item itemvalue="Cucumber java.Cucumber Template" />
       <item itemvalue="JavaScript Debug.index.html (1)" />
-      <item itemvalue="JavaScript Debug.index.html (2)" />
+      <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="TestNG.RunAllTest" />
       <item itemvalue="TestNG.SmokeTest" />
       <item itemvalue="TestNG.RegressionTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html (2)" />
-        <item itemvalue="TestNG.RegressionTest" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="TestNG.RunAllTest" />
+        <item itemvalue="TestNG.RegressionTest" />
         <item itemvalue="TestNG.SmokeTest" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
       </list>
@@ -639,7 +609,7 @@
       <updated>1542594304953</updated>
       <workItem from="1542594311164" duration="7758000" />
       <workItem from="1542634555299" duration="409000" />
-      <workItem from="1545748366124" duration="57402000" />
+      <workItem from="1545748366124" duration="60119000" />
     </task>
     <task id="LOCAL-00001" summary="changed the name of step definitions folder">
       <created>1545790747755</created>
@@ -683,16 +653,17 @@
       <option name="project" value="LOCAL" />
       <updated>1545876288972</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adding git ignore">
+      <created>1545876557241</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1545876557241</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SmokeTest - 2018.12.26 at 18h 56m 41s.xml">
-      <configuration name="SmokeTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SmokeTest - 2018.12.26 at 18h 57m 39s.xml">
-      <configuration name="SmokeTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SmokeTest - 2018.12.26 at 18h 59m 46s.xml">
       <configuration name="SmokeTest" configurationId="TestNG" />
     </history-entry>
@@ -717,14 +688,20 @@
     <history-entry file="RegressionTest - 2018.12.26 at 20h 41m 57s.xml">
       <configuration name="RegressionTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="RunAllTest - 2018.12.26 at 21h 36m 00s.xml">
+      <configuration name="RunAllTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RunAllTest - 2018.12.26 at 21h 37m 13s.xml">
+      <configuration name="RunAllTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65569000" />
+    <option name="totallyTimeSpent" value="68286000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="1946" y="25" width="1825" height="828" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.45565093" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2680875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -734,7 +711,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.18489583" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.5842391" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.10963856" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6970109" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4283854" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -742,7 +719,7 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.30706522" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.7160326" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="CDI" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -751,7 +728,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.17811158" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.29388672" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -766,7 +743,8 @@
     <MESSAGE value="adding test runner" />
     <MESSAGE value="next thing to add more test runners and testng xml files" />
     <MESSAGE value="new xml suites" />
-    <option name="LAST_COMMIT_MESSAGE" value="new xml suites" />
+    <MESSAGE value="adding git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding git ignore" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar!/META-INF/maven/info.cukes/cucumber-html/pom.properties">
@@ -998,7 +976,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng/testng.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testNG/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
@@ -1102,7 +1080,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/tesNG/testng.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testNG/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="7" selection-end-line="12" selection-end-column="8" />
@@ -1137,14 +1115,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/tesNG/testng-regression.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testNG/testng-regression.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/tesNG/testng-smoke.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testNG/testng-smoke.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
@@ -1154,7 +1132,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/company/runners/RunAllTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1185,13 +1163,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="45" column="75" selection-start-line="45" selection-start-column="75" selection-end-line="45" selection-end-column="75" />
+        <state relative-caret-position="-64">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
@@ -1257,6 +1239,9 @@
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
+    <option value="test -Pcukes -Dselenium.browser=chrome -Dwebdriver.chrome.driver=/Users/twoolard/IdeaProjects/testngCucumber/src/test/resources/drivers/chrome/chromedriver-osx.exe" />
+    <option value="test -Pregression -Dselenium.browser=chrome -Dwebdriver.chrome.driver=/Users/twoolard/IdeaProjects/testngCucumber/src/test/resources/drivers/chrome/chromedriver-osx.exe" />
+    <option value="test -DsuiteXmlFile=testng-regression.xml -Dselenium.browser=chrome -Dwebdriver.chrome.driver=/Users/twoolard/IdeaProjects/testngCucumber/src/test/resources/drivers/chrome/chromedriver-osx.exe" />
     <option value="test -Dselenium.browser=chrome -Dwebdriver.chrome.driver=/Users/twoolard/IdeaProjects/testngCucumber/src/test/resources/drivers/chrome/chromedriver-osx.exe" />
     <option value="test-compile -e" />
     <option value="test-compile -x" />
