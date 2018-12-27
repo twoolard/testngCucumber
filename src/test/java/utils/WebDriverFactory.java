@@ -5,8 +5,6 @@ import static utils.LogUtil.error;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 
-
-
 import utils.browser.BrowserDimension;
 import utils.browser.BrowserUtil;
 
@@ -38,7 +36,6 @@ public class WebDriverFactory {
             attempts++;
             try {
                 if (browser == null || browser.isEmpty())
-//                    Preconditions.checkArgument(StringUtils.isNotEmpty(browser));
                     throw new Exception("No browser is defined.");
 
                 if (CHROME.equalsIgnoreCase(browser)) {

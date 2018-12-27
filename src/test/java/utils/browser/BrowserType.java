@@ -1,5 +1,5 @@
 package utils.browser;
 
 public enum BrowserType {
-    IE, FIREFOX, CHROME;
+    IE, FIREFOX, CHROME
 }
