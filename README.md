@@ -5,5 +5,16 @@ No read me quite yet but I will give the maven command line arguments that I use
 or browser is available in the webdriver factory. I have a set up for sauce labs too but I don't have an account anymore
 so I haven't tested it.
 
--Dselenium.browser=chrome
--Dwebdriver.chrome.driver=/Users/twoolard/IdeaProjects/testngCucumber/src/test/resources/drivers/chrome/chromedriver-osx.exe
+Run the following command from the Root directory
+
+All
+mvn test -Pcukes -Dselenium.browser=chrome 
+-Dwebdriver.chrome.driver=$WORKSPACE/src/test/resources/drivers/chrome/chromedriver-osx.exe
+
+Regression
+mvn test -Pregression -Dselenium.browser=chrome 
+-Dwebdriver.chrome.driver=$WORKSPACE/src/test/resources/drivers/chrome/chromedriver-osx.exe
+
+Smoke
+mvn test -Psmoke -Dselenium.browser=chrome 
+-Dwebdriver.chrome.driver=$WORKSPACE/src/test/resources/drivers/chrome/chromedriver-osx.exe
