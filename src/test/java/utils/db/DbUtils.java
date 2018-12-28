@@ -32,6 +32,10 @@ public class DbUtils implements Closeable {
                 TestProperties.getProperty(TestConstant.WRITE_PWD));
     }
 
+    public static void openLocalConnection(DbUtils dbUtils) throws SQLException {
+        dbUtils.open(TestProperties.getProperty(TestConstant.WRITE_CONN), TestProperties.getProperty(TestConstant.WRITE_UID),
+                TestProperties.getProperty(TestConstant.WRITE_PWD));
+    }
     public static DbUtils openConnection() throws SQLException {
         DbUtils dbUtils = new DbUtils();
         dbUtils.open(TestProperties.getProperty(TestConstant.WRITE_CONN), TestProperties.getProperty(TestConstant.WRITE_UID),

@@ -4,12 +4,16 @@ import java.sql.ResultSet;
 import java.util.Date;
 
 import org.apache.commons.lang3.StringUtils;
+
 import utils.properties.TestConstant;
 import utils.properties.TestProperties;
 
-public class queryManager {
+public class ExampleQueryManager {
 
-    public queryManager() {};
+    public ExampleQueryManager() {
+    }
+
+    ;
 
 
     public void deleteMethod(String name, String clientId) throws Exception {
