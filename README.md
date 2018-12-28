@@ -8,13 +8,16 @@ so I haven't tested it.
 Run the following commands from the Root directory
 
 All
+
 mvn test -Pcukes -Dselenium.browser=chrome 
 -Dwebdriver.chrome.driver=$WORKSPACE/src/test/resources/drivers/chrome/chromedriver-osx.exe
 
 Regression
+
 mvn test -Pregression -Dselenium.browser=chrome 
 -Dwebdriver.chrome.driver=$WORKSPACE/src/test/resources/drivers/chrome/chromedriver-osx.exe
 
 Smoke
+
 mvn test -Psmoke -Dselenium.browser=chrome 
 -Dwebdriver.chrome.driver=$WORKSPACE/src/test/resources/drivers/chrome/chromedriver-osx.exe
